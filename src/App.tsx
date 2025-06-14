@@ -173,9 +173,12 @@ function App() {
                 Tentang
               </a>
             </nav>
-            <button className="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700 transition-colors">
-              Akses Aplikasi
-            </button>
+            <a href="/maps">
+  <button className="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700 transition-colors">
+    Akses Aplikasi
+  </button>
+</a>
+
           </div>
         </div>
       </header>
@@ -205,13 +208,16 @@ function App() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
+                <a href="/maps">
                 <button className="bg-red-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-700 transition-all duration-300 flex items-center justify-center group">
                   Jelajahi Peta
                   <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </button>
+                </a>
                 <button className="border-2 border-red-600 text-red-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-600 hover:text-white transition-all duration-300">
                   Panduan Penggunaan
                 </button>
+
               </div>
 
               <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
@@ -640,10 +646,11 @@ function App() {
                       <Globe className="w-5 h-5 text-gray-600" />
                     </div>
                   </div>
-
+                  <a href="/maps">
                   <button className="w-full bg-red-600 text-white py-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Mulai Menggunakan SIPINTAR
                   </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -664,11 +671,13 @@ function App() {
               mudah, cepat, dan akurat melalui SIPINTAR
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+              <a href="/maps">
               <button className="bg-white text-red-600 px-10 py-4 rounded-lg text-xl font-bold hover:bg-red-50 transition-all duration-300 flex items-center group">
                 <Map className="w-6 h-6 mr-3" />
                 Buka Aplikasi SIPINTAR
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </button>
+              </a>
               <button className="border-2 border-white text-white px-10 py-4 rounded-lg text-xl font-bold hover:bg-white hover:text-red-600 transition-all duration-300 flex items-center">
                 <Download className="w-6 h-6 mr-3" />
                 Download Panduan
