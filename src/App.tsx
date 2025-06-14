@@ -311,7 +311,7 @@ function App() {
 
             <div className="grid md:grid-cols-3 gap-8 mt-12">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                <div className="text-3xl font-bold mb-2">8</div>
+                <div className="text-3xl font-bold mb-2">10</div>
                 <div className="text-red-200">Kecamatan</div>
                 <div className="text-sm text-red-100 mt-2">
                   Wilayah terpetakan lengkap
@@ -537,7 +537,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-5xl font-bold mb-2">8</div>
+              <div className="text-5xl font-bold mb-2">10</div>
               <div className="text-red-200 text-lg">Kecamatan Terpetakan</div>
             </div>
             <div className="text-center">
